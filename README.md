@@ -1,5 +1,8 @@
 # XYZ Database Project
-
+To run, install dependencies with 
+```
+pip install flask flask-cors mysql-connector-python werkzeug
+```
 ## EER Diagram
 ![SemProjER drawio (1)](https://github.com/user-attachments/assets/5894f6bf-cbb5-4d4f-84a3-aa25de621b0b)
 
