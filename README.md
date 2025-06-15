@@ -1,24 +1,26 @@
 # XYZ Database Project
-To run, install dependencies with 
+To demonstrate the database viewer, first install dependencies with 
 ```
 pip install flask flask-cors mysql-connector-python werkzeug
 ```
-## EER Diagram
-![SemProjER drawio (1)](https://github.com/user-attachments/assets/5894f6bf-cbb5-4d4f-84a3-aa25de621b0b)
+Then run your MySQL server on your device and use your database of choice, open and run the backend.py script and open the index.html file. Then you should be able to login to the database with the host and port localhost and 3306, and your SQL server username, password, and the name of the database.  
 
-## Dependency Diagram
-![DB drawio](https://github.com/user-attachments/assets/cdfb030e-e035-49be-bdf0-9d07ea513969)
+### Enhanced Entity-Relationship Diagram
+<img src="https://github.com/user-attachments/assets/5894f6bf-cbb5-4d4f-84a3-aa25de621b0b" width="75%">
 
-## Logical Diagram
-![logical diagram](https://github.com/user-attachments/assets/43c222e4-69b0-4f0f-9f38-2c80c8b71a75)
+### Dependency Diagram
+<img src="https://github.com/user-attachments/assets/cdfb030e-e035-49be-bdf0-9d07ea513969" width="60%">
+
+### Logical Diagram
+<img src="https://github.com/user-attachments/assets/43c222e4-69b0-4f0f-9f38-2c80c8b71a75" width="60%">
 
 ## Database Viewer
 ### Tables
 ![image](https://github.com/user-attachments/assets/b0f39324-16af-413f-a1f4-c7e6c3ecbbf5)
-
+The Table viewer allows the user to Create, Read, Update, and Delete rows from any table after they provide the Primary Key for that relationship. This feature is so that the user is more aware of what they are doing, so that they will make less accidents.
 ### Custom Queries
 ![image](https://github.com/user-attachments/assets/f52ffc33-bbc5-4f6b-98c9-4d5a6ce76d49)
-
+The custom SQL Query option allows the user to execute custom commands in their database so they can retrieve any information they would like from the database. Listed below are 15 custom queries to try out with the provided xyzcompany database.
 #### Premade Queries
 ```sql
 --1 Hellen Cole (job=11111)
